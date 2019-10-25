@@ -1,0 +1,232 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper{
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 30px 23%;
+  background-color: #4F4D53;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.logo {
+  position: relative;
+  padding: 10px;
+  width: 50px;
+  height: 25px;
+}
+
+.search_button {
+  position: relative;
+  background-color: #303030;
+  width: 200px;
+  height: 30px;
+  color: white;
+  border: none;
+  text-align: left;
+  font-family: 'Roboto';
+  padding-left: 10px;
+
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  left: 0px;
+  text-align: center;
+  align-items: center;
+}
+
+
+#landingpage_image {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+h1 {
+  position: absolute;
+  font-size: 100px;
+  top: 33%;
+  left: 50%;
+  z-index: 0;
+  width: 800px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.team {
+  position: absolute;
+  top: 70%;
+  padding: 0px;
+  margin: 0px;
+  max-width: 100%;
+  left: 250px;
+  align-items: center;
+}
+
+#lisa {
+  position: relative;
+  border-radius: 100px;
+  width: 180px;
+  margin: 50px;
+}
+
+#danielle {
+  position: relative;
+  border-radius: 100px;
+  width: 180px;
+  margin: 50px;
+}
+
+#brian {
+  position: relative;
+  border-radius: 100px;
+  width: 180px;
+  margin: 50px;
+}
+
+.container2 {
+  margin: 50px auto;
+  padding: 150px;
+  width: 800px;
+  height: 100px;
+  position: relative;
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+  padding: 0px;
+  color: #E8BE02;
+  position: relative;
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+
+p {
+  margin: 50px;
+  padding: 0px;
+  color: #4F4D53;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  weight: 20px;
+
+}
+
+
+.contact{
+  left:10px;
+  margin-left: 250px;
+  margin-bottom: 220px;
+  padding: 80px;
+  position: relative;
+  align-items: : center;
+  /* transform: translate(-50%, -50%); */
+}
+
+.lisa_name, .danielle_name{
+  color: #E8BE02;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 900px;
+  text-align: left;
+  position: relative;
+}
+
+#lisa_contact {
+  position: relative;
+  border-radius: 100px;
+  width: 120px;
+  margin-left: 2%;
+  margin-right: 10px;
+  float: left;
+  padding: 1px;
+}
+
+#danielle_contact {
+  position: relative;
+  border-radius: 100px;
+  width: 120px;
+  margin-left: 2%;
+  margin-right: 10px;
+  float: left;
+  padding: 1px;
+}
+
+span {
+  display: block;
+  margin: 2px;
+}
+
+.footer {
+  border-top: 20px, #E8BE02;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 30px 23%;
+  background-color: #4F4D53;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column{
+  flex: 1;
+  padding: 50px ;
+  display: table-cell;
+  float:  2px left;
+  list-style: none;
+  margin-left: auto;
+}
+
+h3 {
+  color: #E8BE02;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 900px;
+  text-align: left;
+  position: relative;
+}
+
+li{
+  color: white;
+  font-family: 'Roboto';
+  text-align: left;
+  display: flex;
+  position: relative;
+  font-weight: 400px;
+  margin: 10px;
+}
+
+ul{
+  padding:0;
+  margin: 0;
+}
